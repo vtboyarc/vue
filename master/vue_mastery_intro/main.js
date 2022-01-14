@@ -5,8 +5,7 @@ const app = Vue.createApp({
             product: 'Socks',
             image: './assets/images/socks_green.jpeg',
             url: 'https://www.adamcarter.io',
-            inventory: 15,
-            onSale: true,
+            inStock: true,
             details: [
                 '50% cotton',
                 '30% wool',
