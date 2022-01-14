@@ -19,7 +19,7 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        // using this to increment the cart account, above, when the add to cart button is clicked
+        // using this to increment the cart count, above, when the add to cart button is clicked
         // back in the html, is is being used like this:
         // <button class="button" v-on:click="addToCart">Add to Cart</button>
         // the v-on:click is a listener, listening for events, in this case, for click events
